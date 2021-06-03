@@ -13,13 +13,13 @@ const Hero = () => {
     return (
         <HeroContainer>
             <Navbar />
-            {/* <HeroContent>
+            <HeroContent>
                 <HeroItems>
                     <HeroH1>Best Sammiches Ever</HeroH1>
                     <HeroP>Ready In 60 Seconds</HeroP>
                     <HeroBtn>Place Order</HeroBtn>
                 </HeroItems>
-            </HeroContent> */}
+            </HeroContent>
         </HeroContainer>
     )
 }
