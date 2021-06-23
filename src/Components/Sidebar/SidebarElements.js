@@ -7,12 +7,12 @@ export const SidebarContainer = styled.div`
     z-index: 999;
     width: 350px;
     height: 100%;
-    background: #fff;
+    background: green;
     display: grid;
     align-items: center;
     top: 0;
     transition: 0.3s ease-in-out;
-    right: ${({ isOpen }) => (isOpen ? '0' : '0')};
+    right: ${({ isOpen }) => (isOpen ? '0' : '-1000px')};
 
     @meia screen and (max-width: 400px) {
         width: 100%;
@@ -57,7 +57,7 @@ export const SidebarLink = styled(Link)`
     cursor: pointer;
 
     &:hover {
-        color: green;
+        color: #fff;
         transition: ease-in-out 0.2s ease-in-out;
     }
 `
@@ -68,20 +68,19 @@ export const SideBtnWrap = styled.div`
 `
 
 export const SidebarRoute = styled(Link)`
-    background: green;
+    background: #fff;
     white-space: nowrap;
     padding: 16px 64px;
-    color: #fff;
+    color: #000;
     font-size: 16px;
     outline: none;
     border: none;
     cursor: pointer;
-    transition: ease-in-out 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
     text-decoration: none;
     &:hover {
         transition: ease-in-out 0.2s ease-in-out;
-        background: #fff;
-        color: #010606;
-        border: green solid .5px;
+        background: #00b900;
+        color: #000;
     }
 `
