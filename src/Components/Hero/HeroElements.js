@@ -52,14 +52,14 @@ export const HeroBtn = styled.button`
     font-size: 1.4rem;
     padding: 1rem 4rem;
     border: none;
-    background: green;
+    background: #e31837;
     color: #fff;
     transition: 0.2s ease-out;
 
     &:hover {
         background: #fff;
+        color: green;
         transition: 0.2s ease-out;
         cursor: pointer;
-        color: green;
     }
 `
