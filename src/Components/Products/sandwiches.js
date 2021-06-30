@@ -1,6 +1,6 @@
 import italianSub from '../../images/Italian-Sub.jpg'
 
-export const productData = [
+export const sandwichData = [
     {
         img: italianSub,
         alt: 'Sandwich',
